@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--color-secondary-800);
+  --color-primary-900: rgb(58, 0, 97);
+  --color-primary-800: rgb(132, 42, 192);
+  --color-primary-400: rgb(187, 116, 235);
+  --color-primary-100: rgb(228, 213, 238);
+  --color-secondary-800: rgb(243, 243, 243);
+  --color-secondary-500: rgb(228, 228, 228);
+}
+
+#main-header {
+  text-align: center;
+  background-color: var(--color-primary-800);
+  padding: 2rem 5%;
+  color: var(--color-secondary-800);
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--color-primary-400);
+  color: var(--color-secondary-800);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-alt {
+  background-color: transparent;
+  color: var(--color-primary-400);
+}
+
+.btn:hover {
+  background-color: var(--color-primary-800);
+}
+
+.btn-alt:hover {
+  background-color: var(--color-primary-400);
+  color: var(--color-secondary-800);
+}
